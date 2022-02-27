@@ -116,9 +116,9 @@ class Note extends FlxSprite
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
 					if(isSustainNote) {
-						missHealth = 0.05;
+						missHealth = 0.00;
 					} else {
-						missHealth = 0.15;
+						missHealth = 0.00;
 					}
 					hitCausesMiss = true;
 			}
